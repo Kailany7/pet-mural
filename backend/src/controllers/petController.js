@@ -20,7 +20,7 @@ export const cadastrarPet = async (req, res) => {
 
 };
 
-export const atulizarPet = async (req, res) => {
+export const atualizarPet = async (req, res) => {
     try {
         const petAtualizado = await Pet.findByIdAndUpdate(
             req.params.id, 

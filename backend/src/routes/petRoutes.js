@@ -1,10 +1,9 @@
 import express from 'express';
 import {
     listarPets,
-    criarPet,
+    cadastrarPet,
     atualizarPet,
     deletarPet,
-    cadastrarPet,
 } from '../controllers/petController.js';
 
 const router = express.Router();
